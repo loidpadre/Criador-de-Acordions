@@ -1,0 +1,45 @@
+.top h1 {
+  font-size: 18px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.btn {
+  border: none;
+  font-size: 20px;
+  background: none;
+  cursor: pointer;
+}
+
+body {
+  padding: 30px;
+}
+
+.acordion {
+  background-color: aliceblue;
+  margin-top: 20px;
+}
+
+form input {
+  padding: 15px;
+  width: calc(100% - 20px);
+}
+
+form button {
+  padding: 15px 10px;
+  margin-top: 10px;
+  border: none;
+}
+
+form button:hover {
+  background-color: aliceblue;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
